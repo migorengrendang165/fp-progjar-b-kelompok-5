@@ -4,8 +4,8 @@ import pickle
 import random
 
 # Inisialisasi server socket
-host = "localhost"
-port = 12239
+host = "127.0.0.2"
+port = 8002
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((host, port))
 server_socket.listen()
